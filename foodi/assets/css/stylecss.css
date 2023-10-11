@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    height: 100px;
+    /* margin: 0px;
+    padding: 0px; */
+    /* background-color: rgb(231, 234, 237); */
+    /* height: 200px; */
+    width: 100%;
+    /* gap: 50px; */
+}
+.container-header{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+}
+/* header div{
+    display: inline;
+
+} */
+.he-div-food{
+   width: 20px;
+   margin-left: 100px;
+}.div-list-header{
+    width:   260px;
+   height:  50px;
+    /* background-color: rgb(177, 177, 207); */
+}
+.div-list-header ul{
+   
+    list-style: none;
+    display: flex;
+}
+.div-list-header ul li span{
+    color: rgb(39, 38, 38);
+}
+.div-list-header li{
+    margin-right: 26px;
+    
+}
+.div-icons-search-bags{
+    margin-right: 100px;
+}
+
+.div-icons-search-bags i{
+    font-size: 22px;
+    /* color: rgb(15, 14, 14); */
+    margin-right: 36px;
+    padding-top: 2px;
+}
+.div-icons-search-bags button{
+
+    height: 39px;
+    width: 129px;
+    background-color: #52ee52;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    padding: 4px 13px 4px 9px
+}
+
+
+.div-icons-player {
+   width: 28px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 1px 1px 3px 1px #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    margin-top: 6px;
+
+}
+
+/* span{
+    color: white ;
+    background-color: rgb(44, 165, 52);
+} */
+
+/***main***/
+.div-home{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+}
+.div-para-home{
+    width: 40%;
+    margin-right: 50px;
+    margin-top: 94px;
+    margin-left: 110px;
+}
+.div-para-home button{
+    height: 38px;
+    width: 126px;
+    background-color: #52ee52;
+    color: white;
+    border-radius: 20px;
+    border: 0px solid;
+    box-shadow: 0px 15px 16px 1px #9adc9a5e;
+
+}
+
+.div-para-home .p-watch{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+.div-image-home{
+    position: relative;
+    height: 492px;
+    width: 46%;
+    background-color: #52ee52;
+    border-radius: 50%;
+    margin-top: 72px;
+
+}
+
+.img-person{
+    position: absolute;
+    /* bottom: -5px; */
+    height: 606px;
+    width: 720px;
+    top: -37px;
+    right: 9px;
+
+}
+.div-para-home h3{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 150px;
+
+}
+.div-para-home .pp{
+    color: #272727;
+    text-align: start;
+    font-size: 21px;
+    margin-top: 42px;
+    padding-right: 126px;
+    letter-spacing: 1px;
+
+}
+
+.div-para-home h3 span{
+    color: #52ee52
+}
+
+.div-justify-buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: left; */
+    width: 50%;
+    margin-left: 20px;
+}
+
+
+
+.div-like-food {
+    position: absolute;
+   
+    display: flex;
+    justify-content: flex-start;
+    width: 243px;
+    height: 73px;
+    border-radius: 20px;
+    background-color: #fffefd;
+    margin: 20px;
+    box-shadow: 3px 2px 11px 3.5px #c6c6c6;
+    /* z-index: 1; */
+
+}
+
+.lf1{
+    top: 503px;
+    right: 400px;
+}
+.lf2{
+    top: 503px;
+    right: 99px;
+}
+.div-like-food img {
+    margin: 10px 4px 10px 10px;
+    width: 51px;
+    height: 56px;
+    border: 1px solid #a52a2a00;
+    border-radius: 7px;
+    z-index: 2;
+
+}
+
+.div-spaicy-food{
+    position: absolute;
+    height: 37px;
+    width: 148px;
+    background-color: white;
+    top: 100px;
+    right: 516px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 9px;
+    color: red;
+    box-shadow: 2px 2px 6px 1px #d0d0d0;
+}
+
+.div-best-chef{
+    position: absolute;
+    height: 37px;
+    width: 148px;
+    background-color: white;
+    bottom: 0;
+    left: 357px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 9px;
+    color: red;
+    box-shadow: 2px 2px 6px 1px #d0d0d0;
+}
+.arrow-spicy{
+    position: absolute;
+    font-size: 50px;
+    top: 100px;
+    right: 505px;
+    transform: rotate(-23deg);
+}
+
+.arrow-spicy-rotate{
+    position: absolute;
+    font-size: 27px;
+    top: 278px;
+    right: 81px;
+    transform: rotate(47deg);}
+
+.content-spicy{
+    display: flex;
+    justify-items: baseline;
+    font-size: 14px;
+    flex-direction: column;
+    margin-top: 15px;
+    z-index: 2;
+    padding-left: 10px;
+
+}
+.content-spicy span{
+    color: red;
+}
+.div-star{
+    display:flex;
+    justify-content:space-around ;
+    z-index: 2;
+    
+}
+/* .content-spicy p{
+   
+} */
+
+/************category*******/
+.header-before-category{
+    margin-top: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.header-before-category h6,.para-up-section,.para-feedback-red{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #f31616d4;
+}
+
+.header-before-category h3, .header-up-section,.para-feedback-black{
+    font-size: 40px;
+    margin-top: 10px;
+    letter-spacing: 1px;margin-bottom:6px ;
+}
+.div-category{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 193px;
+    margin-right: 141px;
+}
+ .desert img{
+    height: 82px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.circle-green-food{
+    position: absolute;
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(157 197 157);
+    top: 14px;
+
+}
+ 
+.salal img {
+    height: 187px;
+    width: 211px;
+    border-radius: 50%;
+}
+
+.div-category .para-bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div-type-category{
+    position: relative;
+    display: flex;
+    background: #ffffff;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 1px silver;
+    overflow: hidden;
+}
+.desert{
+    width: 200px;
+    height: 200px;
+}
+.salal{
+    width: 300px;
+    height: 400px;
+}
+
+.para-header-before-category{
+
+    margin-top: 185px;
+    margin-left: 100px;
+    margin-bottom: 71px;
+}
+
+.heart-green{
+    position: absolute;
+    width: 50px;
+    height: 46px;
+    background-color: #52ee52;
+    top: 0px;
+    right: -1px;
+    /* overflow: hidden; */
+    border-bottom-left-radius: 29px;
+   
+
+}
+
+.heart-green i{
+    position: absolute;
+    left: 17px;
+    bottom: 15px;
+}
+
+
+.div-category .right-class-btn, .div-category .left-class-btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: -87px;
+    border: 0px;
+
+}
+.div-category button i{
+    right: 7px;
+    position: absolute;
+    /* top: 1000px; */
+    font-size: 100px;
+    z-index: 4;
+    font-size: 36px;
+    top: 8px;
+}
+.right-class-btn {
+    background-color: #52ee52;
+    right: 39px;
+}
+.left-class-btn{
+    background-color: #e8e8e8;
+    right: 98px;
+}
+/********************feedback********/
+.div-Customer-feedback{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 399px;
+    margin-left: 141px;
+}
+
+.div-image-Customer-feedback{
+    position: relative;
+    width: 454px;
+    height: 325px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #52ee52;
+    ;
+    margin-right: -71px;
+    /* position: relative;
+    width: 336px;
+    height: 264px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #52ee52; */
+
+}
+.div-Customer-feedback .shif{
+
+    width: 421px;
+    height: 593px;
+    position: absolute;
+    /* top: -91px; */
+    /* left: -4px; */
+    bottom: 0;
+    /* top: -91px;
+    /* width: 304px;
+    height: 501px;
+    position: absolute; */
+    /* top: -91px; */
+    /* left: -4px;
+    bottom: 0; */
+}
+
+.Customer-feedback-para-img{
+    padding-left: 131px;
+    padding-right: 100px;
+    margin-top: -123px;
+    width: 769px;
+
+}
+
+
+.Customer-feedback-para-img p:nth-child(4){
+    padding: 20px;
+    margin: 20px 20px 14px 0px;
+    text-align: justify;
+    /* padding-right: 14px; */
+    padding-left: 0px;
+
+}
+
+.div-img-overlap{
+    display: flex;
+    width: 620px;
+    
+}
+.imgs{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 17px;
+    
+}
+.imgs img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 6px white solid;
+    margin-left: -29px;
+    
+}
+
+
+/***************jour***************/
+
+.Jeoury-services{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Jeoury-services button{
+width: 132px;
+height: 39px;
+border-radius: 20px;
+background:  #52ee52;
+
+border: 0px;
+margin-top: 37px;
+color: white;}
+
+.gift-online{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.gift-online div:not(.div-icon){
+    display: flex;
+    background: #ffffff;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 1px silver;
+    color:  #52ee52;
+    ;
+    width: 234px;
+    height: 228px;
+
+}
+.gift-online div p:nth-child(4){
+    padding: 2px 10px 6px 35px;
+
+}
+.Jeoury-services div .para-up-section{
+    margin-top: 90px;
+}
+.Jeoury-services div .para-down-section{
+    margin-top: 45px;
+    font-size: 16px;
+}
+
+.explor{
+    margin-top: 45px;
+}
+/****************footer*********/
+
+.footer-links{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links ul{
+    list-style: none;
+}
+
+.footer-links li{
+    list-style: none;
+    padding-top: 7px;
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+}
+
+.tail{
+    margin-top: 83px;
+    margin-left: 165px;
+    margin-right: 133px;
+    display: flex;
+
+    
+}
+.tail div:first-child {
+    margin-right: 363px;
+    font-size: 30px;
+}
